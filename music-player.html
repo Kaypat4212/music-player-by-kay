@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="/loader.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="main">
+   
+    <div>
+        <h3>Music play designed by <a style="text-decoration: none; color: green; " href="https://www.kaypat.dev">Kaypat.dev</a></h3> <br> <h3>Version 1</h3>
+    </div>
+    <div class="container">
+        <div class="music-player">
+            <img src="/FullSizeRender.jpg" alt="" class="songImg">
+            <h3>Unconditionally</h3>
+            <p>Olamide ft Perruzi</p>
+            <audio src="/Olamide_ft_Peruzzi_-_Unconditionally.mp3" id="audio" type="audio/mp3"></audio>
+            <span id="duration"></span>
+            <span id="time"></span>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <button id="play-pause">Play</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/musicplay.js"></script>
+</body>
+</html>
